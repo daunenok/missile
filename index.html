@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missile Command</title>
+    <style>
+        canvas {
+            background-color: #000;
+        }
+        h1 {
+            text-align: center;
+        }
+        div {
+            text-align: center;
+        }
+        button {
+            font-size: 150%;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .scores {
+            text-align: center;
+            font-size: 150%;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <canvas width="700" height="500" id="canv"></canvas><br>
+    <div class="scores">Scores: <span id="game-scores">0</span></div>
+    <button id="start">Start</button>
+</div>
+
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
